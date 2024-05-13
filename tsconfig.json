@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		"target": "es2020", // Node.js 14
+		"lib": [
+			"es2020"
+		],
+		"noPropertyAccessFromIndexSignature": false,
+		"isolatedModules": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext"
+	},
+  "include": [
+    "./scripts/**/*.ts",
+    "./**/*.ts"
+  ]
+}

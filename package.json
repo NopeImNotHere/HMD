@@ -1,0 +1,22 @@
+{
+	"name": "hackmud-script-env",
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"start": "tsc && node ./dist/start.js"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"devDependencies": {
+		"@types/inquirer": "^9.0.7",
+		"dotenv": "^16.4.5",
+		"gulp": "^5.0.0",
+		"inquirer": "^9.2.21",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"@dotenvx/dotenvx": "^0.38.0"
+	}
+}
