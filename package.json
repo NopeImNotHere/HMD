@@ -9,8 +9,9 @@
 		"node": ">=18"
 	},
 	"devDependencies": {
+		"@types/graceful-fs": "^4.1.9",
 		"@types/inquirer": "^9.0.7",
-		"dotenv": "^16.4.5",
+		"graceful-fs": "^4.2.11",
 		"gulp": "^5.0.0",
 		"inquirer": "^9.2.21",
 		"ts-node": "^10.9.2",
